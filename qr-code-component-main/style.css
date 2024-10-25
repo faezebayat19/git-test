@@ -1,0 +1,40 @@
+body{
+    background-color: #d5e1ef;
+}
+
+.qrcodebc{
+    background-color: white;
+    width: 280px;
+    height: 470px;
+    border-radius: 12px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:9%;
+}
+
+.qrcodeimg{
+    border-radius: 12px;
+    width: 250px;
+    height: 250px;
+    margin-top: 15px;
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url(./images/Outfit-VariableFont_wght.ttf);
+}
+
+.content1{
+    font-family: outfit;
+    font-weight: 700;
+    flex-wrap: wrap;
+}
+
+.content2{
+    font-family: outfit;
+    font-weight: 400;
+    color: #868a8d;
+    font-size: small;
+}
